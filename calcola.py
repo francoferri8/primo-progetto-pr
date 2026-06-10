@@ -1,9 +1,6 @@
 def somma_lista(numeri):
     """Restituisce la somma di tutti i numeri in una lista."""
-    totale = 0
-    for n in numeri:
-        totale += n
-    return totale
+    return sum(numeri)
 
 
 if __name__ == "__main__":
